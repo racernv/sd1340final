@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>JaysAdlib</title> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+	<script src="js/application.js"></script>
+</head> 
+
+	
+<body> 
+
+<!-- Start of first page: #one -->
+<div data-role="page" id="home">
+
+	<div data-role="header">
+		<h1>Jays Adlib</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" >	
+		<div id="form">
+			<form>
+				<div data-role="fieldcontain">
+					<label for="name">Name:</label>
+					<input type="text" name="value1" id="value1" value=""  />
+				</div>
+				<div data-role="fieldcontain">
+					<label for="name">Name:</label>
+					<input type="text" name="value2" id="value2" value=""  />
+				</div>	
+				<div data-role="fieldcontain">
+					<label for="name">Place:</label>
+					<input type="text" name="value3" id="value3" value=""  />
+				</div>	
+				<div data-role="fieldcontain">
+					<label for="name">Activity:</label>
+					<input type="text" name="value4" id="value4" value=""  />
+				</div>	
+				<div data-role="fieldcontain">
+					<label for="name">Activity:</label>
+					<input type="text" name="value5" id="value5" value=""  />
+				</div>
+				<div data-role="fieldcontain">
+					<label for="name"></label>
+					<button type="button" onclick="adlib()">Submit</button>
+				</div>
+			</form>
+		</div>
+		<div id="result">
+		
+		</div>
+	</div><!-- /content -->
+	
+	<div data-role="footer" data-theme="d">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page one -->
+
+</body>
+</html>
